@@ -71,4 +71,22 @@ header {
     pointer-events: none;
 }
 
+.sec {
+    position: relative;
+    background: 662042;
+    padding: 100px;
+}
+
+.sec h2 {
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
 /* body end */
