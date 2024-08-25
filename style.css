@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #f9f9f9;
+    background-color: #EF8679;
     min-height: 100vh;
     overflow: hidden;
 }
@@ -28,13 +28,13 @@ header {
 
 .logo {
     font-size: 2em;
-    color: #AC3758;
+    color: #051030;
     pointer-events: none;
 }
 
 .navigation a {
     text-decoration: none;
-    color: #AC3758;
+    color: #051030;
     padding: 6px 15px;
     border-radius: 20px;
     margin: 0 10px;
@@ -43,7 +43,32 @@ header {
 
 .navigation a:hover, 
 .navigation a.active {
-    background-color: #AC3758;
+    background-color: #051030;
     color: #fff;
 }
 /* navbar end */
+
+/* body start */
+.journey {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: absolute;
+    font-size: 5em;
+    color: #fff;
+}
+
+.journey img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+/* body end */
