@@ -13,6 +13,7 @@ body {
     overflow: hidden;
 }
 
+/* navbar start */
 header {
     position: absolute;
     top: 0;
@@ -45,3 +46,4 @@ header {
     background-color: #AC3758;
     color: #fff;
 }
+/* navbar end */
